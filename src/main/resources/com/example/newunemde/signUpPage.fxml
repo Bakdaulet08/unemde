@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="error" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.newunemde.Controller2">
+   <children>
+      <ImageView fx:id="logo3" fitHeight="65.0" fitWidth="65.0" layoutX="200.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/logo3.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="264.0" layoutY="64.0" prefHeight="51.0" prefWidth="113.0" text="nemde" textFill="#d9a217">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="255.0" layoutY="174.0" text="SignUp" textFill="#d9a217">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="signUpButton" layoutX="196.0" layoutY="401.0" mnemonicParsing="false" onAction="#signUpNewUser" prefHeight="26.0" prefWidth="215.0" text="SignUp" textFill="#c43c3c" textOverrun="CLIP">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <TextField fx:id="enterFirstname" layoutX="196.0" layoutY="237.0" prefHeight="26.0" prefWidth="104.0" promptText="first name" />
+      <TextField fx:id="enterEmailToSign" layoutX="198.0" layoutY="273.0" prefHeight="26.0" prefWidth="215.0" promptText="email" />
+      <Line endX="147.3499755859375" endY="-0.3071136474609375" layoutX="293.0" layoutY="164.0" startX="-132.20001220703125" startY="-0.3071136474609375" />
+      <Line endX="142.29290771484375" endY="-0.4857177734375" layoutX="297.0" layoutY="454.0" startX="-137.79998779296875" startY="-0.69287109375" />
+      <Line endX="100.0" endY="-30.599990844726562" layoutX="60.0" layoutY="196.0" startX="98.70001220703125" startY="256.80712890625" />
+      <Line endX="100.0" endY="-34.59999084472656" layoutX="340.0" layoutY="199.0" startX="100.70001220703125" startY="253.80712890625" />
+      <TextField fx:id="enterLastName" layoutX="306.0" layoutY="237.0" prefHeight="26.0" prefWidth="104.0" promptText="last name" />
+      <TextField fx:id="confirmPassToSign" layoutX="196.0" layoutY="347.0" prefHeight="26.0" prefWidth="215.0" promptText="confirm password" />
+      <TextField fx:id="enterPassToSign" layoutX="198.0" layoutY="309.0" prefHeight="26.0" prefWidth="215.0" promptText="password" />
+      <Label layoutX="214.0" layoutY="476.0" opacity="0.0" text="Fill all fields!" textFill="#f70000">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="smthIsEmpty" layoutX="252.0" layoutY="471.0" opacity="0.0" text="Fill all fields!" textFill="#f70000">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.newunemde.Controller3">
+  <content>
+     <AnchorPane fx:id="planPane" prefHeight="1200.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1">
+        <children>
+           <ImageView fx:id="logo2" fitHeight="70.0" fitWidth="70.0" layoutX="87.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true" style="-fx-effect: dropshadow(gaussian, gray, 10, 0.5, 0, 0);">
+              <image>
+                 <Image url="@../../../images/logo3.png" />
+              </image></ImageView>
+           <Label layoutX="155.0" layoutY="40.0" prefHeight="58.0" prefWidth="132.0" style="-fx-effect: dropshadow(gaussian, gray, 10, 0.5, 0, 0);" text="nemde" textFill="#d9a217">
+              <font>
+                 <Font name="System Bold" size="40.0" />
+              </font>
+           </Label>
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e5e8ec" height="362.0" layoutX="59.0" layoutY="151.0" stroke="BLACK" strokeType="INSIDE" width="496.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4d41f" height="52.0" layoutX="59.0" layoutY="145.0" stroke="BLACK" strokeType="INSIDE" width="496.0" />
+           <Label layoutX="159.0" layoutY="147.0" text="Calendar" textFill="WHITE">
+              <font>
+                 <Font name="System Bold" size="30.0" />
+              </font>
+           </Label>
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2cbd4" height="52.0" layoutX="62.0" layoutY="197.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#acaaa5" height="52.0" layoutX="132.0" layoutY="197.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2cbd4" height="52.0" layoutX="202.0" layoutY="197.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#acaaa5" height="52.0" layoutX="272.0" layoutY="197.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2cbd4" height="52.0" layoutX="342.0" layoutY="197.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#acaaa5" height="52.0" layoutX="412.0" layoutY="197.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2cbd4" height="52.0" layoutX="482.0" layoutY="197.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#acaaa5" height="52.0" layoutX="62.0" layoutY="249.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2cbd4" height="52.0" layoutX="132.0" layoutY="249.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#acaaa5" height="52.0" layoutX="202.0" layoutY="249.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2cbd4" height="52.0" layoutX="272.0" layoutY="249.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#acaaa5" height="52.0" layoutX="342.0" layoutY="249.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2cbd4" height="52.0" layoutX="412.0" layoutY="249.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#acaaa5" height="52.0" layoutX="482.0" layoutY="249.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2cbd4" height="52.0" layoutX="62.0" layoutY="301.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#acaaa5" height="52.0" layoutX="132.0" layoutY="301.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2cbd4" height="52.0" layoutX="202.0" layoutY="301.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#acaaa5" height="52.0" layoutX="272.0" layoutY="301.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2cbd4" height="52.0" layoutX="342.0" layoutY="301.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#acaaa5" height="52.0" layoutX="412.0" layoutY="301.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2cbd4" height="52.0" layoutX="482.0" layoutY="301.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#acaaa5" height="52.0" layoutX="62.0" layoutY="353.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2cbd4" height="52.0" layoutX="132.0" layoutY="353.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#acaaa5" height="52.0" layoutX="202.0" layoutY="353.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2cbd4" height="52.0" layoutX="272.0" layoutY="353.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#acaaa5" height="52.0" layoutX="342.0" layoutY="353.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2cbd4" height="52.0" layoutX="412.0" layoutY="353.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#acaaa5" height="52.0" layoutX="482.0" layoutY="353.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2cbd4" height="52.0" layoutX="62.0" layoutY="405.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#acaaa5" height="52.0" layoutX="132.0" layoutY="405.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2cbd4" height="52.0" layoutX="202.0" layoutY="405.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#acaaa5" height="52.0" layoutX="272.0" layoutY="405.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2cbd4" height="52.0" layoutX="342.0" layoutY="405.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#acaaa5" height="52.0" layoutX="412.0" layoutY="405.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2cbd4" height="52.0" layoutX="482.0" layoutY="405.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#acaaa5" height="52.0" layoutX="62.0" layoutY="457.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2cbd4" height="52.0" layoutX="132.0" layoutY="457.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#acaaa5" height="52.0" layoutX="202.0" layoutY="457.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2cbd4" height="52.0" layoutX="272.0" layoutY="457.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#acaaa5" height="52.0" layoutX="342.0" layoutY="457.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2cbd4" height="52.0" layoutX="412.0" layoutY="457.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#acaaa5" height="52.0" layoutX="482.0" layoutY="457.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+           <Label layoutX="66.0" layoutY="194.0" prefHeight="58.0" prefWidth="62.0" text="Mon" textFill="WHITE">
+              <font>
+                 <Font name="System Bold" size="25.0" />
+              </font>
+           </Label>
+           <Label layoutX="136.0" layoutY="194.0" prefHeight="58.0" prefWidth="62.0" text="Tues" textFill="WHITE">
+              <font>
+                 <Font name="System Bold" size="25.0" />
+              </font>
+           </Label>
+           <Label layoutX="206.0" layoutY="194.0" prefHeight="58.0" prefWidth="62.0" text="Wed" textFill="WHITE">
+              <font>
+                 <Font name="System Bold" size="25.0" />
+              </font>
+           </Label>
+           <Label layoutX="276.0" layoutY="194.0" prefHeight="58.0" prefWidth="62.0" text="Thur" textFill="WHITE">
+              <font>
+                 <Font name="System Bold" size="25.0" />
+              </font>
+           </Label>
+           <Label layoutX="345.0" layoutY="194.0" prefHeight="58.0" prefWidth="62.0" text="Frida" textFill="WHITE">
+              <font>
+                 <Font name="System Bold" size="25.0" />
+              </font>
+           </Label>
+           <Label layoutX="416.0" layoutY="194.0" prefHeight="58.0" prefWidth="62.0" text="Satur" textFill="WHITE">
+              <font>
+                 <Font name="System Bold" size="25.0" />
+              </font>
+           </Label>
+           <Label layoutX="486.0" layoutY="193.0" prefHeight="58.0" prefWidth="62.0" text="Sund" textFill="WHITE">
+              <font>
+                 <Font name="System Bold" size="25.0" />
+              </font>
+           </Label>
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e5e8ec" height="216.0" layoutX="40.0" layoutY="600.0" stroke="BLACK" strokeType="INSIDE" width="253.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff552f" height="46.0" layoutX="40.0" layoutY="600.0" stroke="BLACK" strokeType="INSIDE" width="253.0" />
+           <Label layoutX="110.0" layoutY="605.0" text="Fines" textFill="WHITE">
+              <font>
+                 <Font name="System Bold" size="25.0" />
+              </font>
+           </Label>
+           <Label layoutX="57.0" layoutY="668.0" text="Amout:" textFill="#ff552f">
+              <font>
+                 <Font name="System Bold" size="20.0" />
+              </font>
+           </Label>
+           <Label layoutX="54.0" layoutY="748.0" text="All sum:" textFill="#ff552f">
+              <font>
+                 <Font name="System Bold" size="20.0" />
+              </font>
+           </Label>
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff552f" height="46.0" layoutX="158.0" layoutY="660.0" stroke="BLACK" strokeType="INSIDE" width="106.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff552f" height="46.0" layoutX="144.0" layoutY="740.0" stroke="BLACK" strokeType="INSIDE" width="132.0" />
+           <Line endX="135.0" layoutX="158.0" layoutY="727.0" startX="-118.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#66dc4c" height="46.0" layoutX="318.0" layoutY="600.0" stroke="BLACK" strokeType="INSIDE" width="253.0" />
+           <Label layoutX="360.0" layoutY="605.0" text="Wishlist" textFill="WHITE">
+              <font>
+                 <Font name="System Bold" size="25.0" />
+              </font>
+           </Label>
+           <Label layoutX="176.0" layoutY="665.0" text="5" textFill="WHITE">
+              <font>
+                 <Font name="System Bold" size="25.0" />
+              </font>
+           </Label>
+           <Label layoutX="176.0" layoutY="745.0" text="5000" textFill="WHITE">
+              <font>
+                 <Font name="System Bold" size="25.0" />
+              </font>
+           </Label>
+           <Label layoutX="234.0" layoutY="745.0" text="tg" textFill="WHITE">
+              <font>
+                 <Font name="System Bold" size="25.0" />
+              </font>
+           </Label>
+           <Label layoutX="391.0" layoutY="160.0" text="month:" textFill="WHITE">
+              <font>
+                 <Font name="System Bold" size="15.0" />
+              </font>
+           </Label>
+           <Label layoutX="447.0" layoutY="155.0" prefHeight="30.0" prefWidth="94.0" text="October" textFill="WHITE">
+              <font>
+                 <Font name="System Bold" size="20.0" />
+              </font>
+           </Label>
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#efeee2" height="52.0" layoutX="312.0" layoutY="44.0" stroke="BLACK" strokeType="INSIDE" width="260.0" />
+           <Button fx:id="mainButton" layoutX="315.0" layoutY="48.0" mnemonicParsing="false" onAction="#switchToMainPage" onMouseEntered="#hoverAffect" onMouseExited="#noHoverAffect" style="-fx-background-color: #e4d41f; -fx-font-size: 20; -fx-font-weight: bold;" text="main" textFill="WHITE">
+              <font>
+                 <Font name="System Bold" size="20.0" />
+              </font>
+           </Button>
+           <Button fx:id="planButton" layoutX="400.0" layoutY="48.0" mnemonicParsing="false" onMouseEntered="#hoverAffect" onMouseExited="#noHoverAffect" style="-fx-background-color: #c4712e; -fx-font-size: 20; -fx-font-weight: bold;" text="plan" textFill="WHITE">
+              <font>
+                 <Font size="20.0" />
+              </font>
+           </Button>
+           <Button fx:id="informButton" layoutX="477.0" layoutY="48.0" mnemonicParsing="false" onAction="#switchToInformPage" onMouseEntered="#hoverAffect" onMouseExited="#noHoverAffect" style="-fx-background-color: #e4d41f; -fx-font-weight: bold; -fx-font-size: 20;" text="inform" textFill="WHITE">
+              <font>
+                 <Font size="20.0" />
+              </font>
+           </Button>
+            <Button layoutX="514.0" layoutY="602.0" mnemonicParsing="false" onAction="#addNewWish" prefHeight="41.0" prefWidth="54.0" text="+">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Pane fx:id="paneWish" layoutX="317.0" layoutY="542.0" prefHeight="57.0" prefWidth="254.0" style="-fx-background-color: #e5e8ec; -fx-translate-z: 10;" visible="false">
+               <children>
+                  <TextField fx:id="enterWish" layoutX="6.0" layoutY="8.0" prefHeight="43.0" prefWidth="202.0" promptText="Enter your wish" />
+                  <Button fx:id="addButton" layoutX="200.0" layoutY="5.0" minWidth="45.0" mnemonicParsing="false" onAction="#addWish" prefHeight="45.0" prefWidth="45.0" text="Add" />
+               </children></Pane>
+        </children>
+     </AnchorPane>
+  </content>
+</ScrollPane>

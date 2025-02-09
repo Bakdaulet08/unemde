@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="702.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.newunemde.Controller3">
+   <content>
+      <AnchorPane prefHeight="1053.0" prefWidth="611.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1">
+         <children>
+            <!-- Logo Image -->
+            <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="68.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/logo3.png" />
+               </image>
+            </ImageView>
+
+            <!-- Label for "nemde" -->
+            <Label layoutX="135.0" layoutY="44.0" prefHeight="58.0" prefWidth="132.0" text="nemde" textFill="#d9a217">
+               <font>
+                  <Font name="System Bold" size="40.0" />
+               </font>
+            </Label>
+
+            <!-- Main Button -->
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#efeee2" height="52.0" layoutX="299.0" layoutY="47.0" stroke="BLACK" strokeType="INSIDE" width="260.0" />
+            <Button fx:id="mainButton" layoutX="302.0" layoutY="51.0" mnemonicParsing="false" onAction="#switchToMainPage" onMouseEntered="#hoverAffect" onMouseExited="#noHoverAffect" style="-fx-background-color: #e4d41f; -fx-font-size: 20; -fx-font-weight: bold;" text="main" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+
+            <!-- Plan Button -->
+            <Button fx:id="planButton" layoutX="387.0" layoutY="51.0" mnemonicParsing="false" onAction="#switchToPlanPage" onMouseEntered="#hoverAffect" onMouseExited="#noHoverAffect" style="-fx-background-color: #e4d41f; -fx-font-size: 20; -fx-font-weight: bold;" text="plan" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+
+            <!-- Inform Button -->
+            <Button fx:id="informButton" layoutX="464.0" layoutY="51.0" mnemonicParsing="false" onMouseEntered="#hoverAffect" onMouseExited="#noHoverAffect" style="-fx-background-color: #c4712e; -fx-font-weight: bold; -fx-font-size: 20;" text="inform" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+
+            <!-- Footer Elements -->
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#27d918" height="40.0" layoutX="234.0" layoutY="593.0" stroke="BLACK" strokeType="INSIDE" width="133.0" />
+            <Label layoutX="248.0" layoutY="583.0" prefHeight="58.0" prefWidth="124.0" text="Graphics" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <Line endX="283.99993896484375" layoutX="326.0" layoutY="547.0" startX="-316.0" />
+            <Polygon fill="#27d918" layoutX="324.0" layoutY="451.0" points="-7.5999755859375, -5.20001220703125, 32.100006103515625, -31.20001220703125, -7.5999755859375, -56.39996337890625" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e5e8ec" height="134.0" layoutX="67.0" layoutY="173.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <TextField fx:id="enterIncome" layoutX="85.0" layoutY="234.0" prefHeight="52.0" prefWidth="123.0" promptText="enter income" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4d41f" height="46.0" layoutX="67.0" layoutY="173.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Label layoutX="85.0" layoutY="178.0" text="Enter income" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e5e8ec" height="134.0" layoutX="56.0" layoutY="354.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <TextField fx:id="dividingForDay" layoutX="67.0" layoutY="414.0" prefHeight="52.0" prefWidth="123.0" promptText="enter for day" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#27d918" height="39.0" layoutX="67.0" layoutY="361.0" stroke="BLACK" strokeType="INSIDE" width="182.0" />
+            <Label layoutX="68.0" layoutY="363.0" prefHeight="35.0" prefWidth="178.0" text="Dividing for a month" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e5e8ec" height="134.0" layoutX="355.0" layoutY="173.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#27d918" height="46.0" layoutX="355.0" layoutY="173.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Label layoutX="373.0" layoutY="178.0" text="Balance" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e5e8ec" height="134.0" layoutX="368.0" layoutY="353.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4d41f" height="46.0" layoutX="368.0" layoutY="354.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Label layoutX="375.0" layoutY="362.0" text="Money for a month" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="Balance2" layoutX="391.0" layoutY="237.0" text="100,000" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="497.0" layoutY="423.0" text="tg" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="resForDay" layoutX="421.0" layoutY="423.0" text="15000" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="504.0" layoutY="242.0" text="tg" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#27d918" height="30.0" layoutX="267.0" layoutY="406.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+            <Button fx:id="applyIncome" layoutX="209.0" layoutY="235.0" mnemonicParsing="false" onAction="#enterIncome" prefHeight="50.0" prefWidth="47.0">
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/checkMark.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="applyForDay" layoutX="190.0" layoutY="415.0" mnemonicParsing="false" onAction="#dividingForMonth" prefHeight="50.0" prefWidth="47.0">
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/checkMark.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Line endX="75.4000244140625" endY="3.0517578125E-5" layoutX="467.0" layoutY="465.0" startX="-75.79998779296875" startY="3.0517578125E-5" />
+            <Line endX="75.4000244140625" endY="3.0517578125E-5" layoutX="455.0" layoutY="285.0" startX="-75.79998779296875" startY="3.0517578125E-5" />
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

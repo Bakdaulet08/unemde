@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.newunemde.loadingController">
+   <children>
+      <Label layoutX="232.0" layoutY="495.0" prefHeight="38.0" prefWidth="91.0" text="Loading" textFill="#2355c9">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Circle fx:id="thirdLight" fill="DODGERBLUE" layoutX="379.0" layoutY="517.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="secondLight" fill="DODGERBLUE" layoutX="357.0" layoutY="517.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="firstLight" fill="DODGERBLUE" layoutX="335.0" layoutY="517.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+      <MediaView fx:id="mediaView" fitHeight="300.0" fitWidth="500.0" layoutX="50.0" layoutY="100.0" rotate="90.0" />
+   </children>
+</AnchorPane>

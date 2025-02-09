@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.newunemde.Controller1">
+   <children>
+      <ImageView fx:id="logo1" fitHeight="60.0" fitWidth="60.0" layoutX="216.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/logo3.png" />
+         </image></ImageView>
+      <Label layoutX="275.0" layoutY="62.0" prefHeight="67.0" prefWidth="114.0" text="nemde" textFill="#d9a217">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="263.0" layoutY="164.0" text="Login" textFill="#d9a217">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="toMain" layoutX="227.0" layoutY="323.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="163.0" text="login" textFill="#38dc13" textOverrun="CLIP">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <TextField fx:id="enterLogin" layoutX="224.0" layoutY="217.0" prefHeight="38.0" prefWidth="170.0" promptText="enter login" />
+      <TextField fx:id="enterPassword" layoutX="224.0" layoutY="271.0" prefHeight="38.0" prefWidth="170.0" promptText="enter password" />
+      <Label layoutX="218.0" layoutY="367.0" text="don't have a account " />
+      <Line endX="137.2928466796875" endY="-0.3071136474609375" layoutX="301.0" layoutY="154.0" startX="-132.20001220703125" startY="-0.3071136474609375" />
+      <Line endX="134.20001220703125" endY="-0.69287109375" layoutX="305.0" layoutY="419.0" startX="-137.79998779296875" startY="-0.69287109375" />
+      <Line endX="100.0" endY="-30.599990844726562" layoutX="68.0" layoutY="186.0" startX="100.0" startY="232.80712890625" />
+      <Line endX="100.0" endY="-34.59999084472656" layoutX="339.0" layoutY="189.0" startX="99.99998474121094" startY="227.60003662109375" />
+      <Label fx:id="switchToSign" layoutX="332.0" layoutY="367.0" onMouseClicked="#switchToSceneSignUp" text="Create it now" textFill="#2e43dc" />
+      <Label fx:id="wrongPass" layoutX="222.0" layoutY="449.0" opacity="0.0" text="wrong login or password " textFill="#f70000">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
